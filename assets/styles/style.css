@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* alternative bunny fonts from https://fonts.bunny.net/about */
+/* headings */
+/* @import url(https://fonts.bunny.net/css?family=aclonica:400|almarai:400,700); */
+/* font-family: 'Aclonica', sans-serif; */
+
+/* body */
+/* @import url(https://fonts.bunny.net/css?family=almarai:400,700); */
+/* font-family: 'Almarai', sans-serif; */
+html {
+    background-color: #00539f;
+  }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #f0f0f0; */
+    background-color: #ff9500;
+    color: #333;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+
+.h1 {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    /* color: #00539f; we dont really need this color due to the font-style */
+    text-shadow: 3px 3px 3px black;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
