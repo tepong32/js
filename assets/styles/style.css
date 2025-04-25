@@ -48,3 +48,12 @@ li {
   line-height: 2;
   letter-spacing: 1px;
 }
+
+.bordered-box {
+    border: #333 solid 3px;
+    margin: 0;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
