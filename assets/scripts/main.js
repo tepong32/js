@@ -11,9 +11,7 @@ myImage.addEventListener("click", () => {
   }
 });
 
-/*
-personalized greeting
-*/
+/* personalized greeting */
 let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h1");
 
@@ -36,4 +34,19 @@ myButton.addEventListener("click", () => {
 // will need to find a way to select which button will trigger the function 
 // ************** getElementById("myButton").addEventListener("click", setUserName);
 
-  
+
+
+// strike-through/remove strike-through list items when clicked
+// see css for styling (.done class)
+const listItems = document.querySelectorAll("li");
+function toggleDone(e) {
+  if (!e.target.className) {
+    e.target.className = "done";
+  } else {
+    e.target.className = "";
+  }
+}
+
+listItems.forEach((item) => {
+  item.addEventListener("click", toggleDone);
+});

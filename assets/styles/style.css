@@ -16,7 +16,7 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     /* background-color: #f0f0f0; */
-    background-color: #ff9500;
+    background-color: #a4a4a4;
     color: #333;
     margin: 0 auto;
     padding: 0 20px 20px 20px;
@@ -57,3 +57,11 @@ li {
     padding-right: 10px;
     border-radius: 10px;
 }
+
+.done {
+  /* add a strike-through on list items */
+  /* see toggleDone() */
+  color: green;
+  text-decoration: line-through solid black 2px;
+}
+
